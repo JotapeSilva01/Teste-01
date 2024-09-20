@@ -41,35 +41,47 @@
 
             <div class="branding d-flex align-items-center"> 
                
-                <div class="container">
-                     <a href="">
+                <div class="container position-relative d-flex align-items-center justify-content-end">
+                     <a href="" class="logo d-flex align-items-center me-auto">
                        <img src=" assets/img/logo.png" alt="">
                      </a>   
 
                      <!-- Menu -->
-                      <nav>
+                    <!-- Menu -->
+                <nav id="navmenu" class="navmenu">
+                    <ul>
+                      <li> <a href="#hero" class="active"> Home </a> </li> 
+                      <li> <a href="#sobre"> Sobre </a> </li> 
+                      <li> <a href="#servicos"> Serviços </a> </li> 
+                      <li> <a href="#departamentos"> Departamentos </a> </li>
+                      <li> <a href="#medicos"> Médicos </a> </li>
+                      <li> <a href="#contato"> Contato </a> </li>
+                      <li class="dropdown"> 
+                        <a href="#"> 
+                          <span> Mais Opções </span> 
+                          <i class="bi bi-chevron-down"> </i>
+                        </a>
                         <ul>
-                            <li> <a href="">Home</a> </li>
-                            <li> <a href="">Sobre</a> </li>
-                            <li> <a href="">Serviços</a> </li>
-                            <li> <a href="">Departamentos</a> </li>
-                            <li> <a href="">Médicos</a> </li>
-                            <li> <a href="">Contatos</a> </li>
-                            <li> <a href="">Mais opções</a> </li>
+                          <li> <a href="#"> Opção 1 </a>  </li>
+                          <li> <a href="#"> Opção 2 </a>  </li>
+                          <li class="dropdown">
+                            <a href="#">
+                              <span> Submenu </span>
+                              <i class="bi bi-chevron-down"> </i> 
+                            </a>
+                              
                             <ul>
-                                <li> Opção 1</li>
-                                <li> Opção 2</li>
-                                <li>Submenu
-                                    <ul>
-                                <li> Submenu 1</li>
-                                <li> Submenu 2</li>
-                                    </ul>    
-                            </ul><!-- fim submenu -->
+                              <li> <a href="#"> Submenu 1 </a> </li>
+                              <li> <a href="#"> Submenu 2 </a> </li>
+                            </ul>
+                          </li> <!-- fim Submenu -->
                         </ul>
-                    </li><!-- fim mais opções -->
-
-                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-                      </nav>
+                      </li> <!-- Fim Mais Opções -->
+                    </ul>
+  
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list"> </i>
+  
+                  </nav>
 
                       <a href="" class="cta-btn">
                         Agende sua pior comida
@@ -80,7 +92,27 @@
             </div> <!-- Fim branding -->
 
     </header>
-    <main>
+    <main class="main">
+
+       <!--  HERO section -->
+       <main class="main">
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero section">
+    
+          <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+    
+            <div class="carousel-item active">
+              <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="">
+              <div class="container">
+                <h2>Bem-vindo à "Sua Marca"</h2>
+                <p>Na Clínica Vida Plena, cuidamos da sua saúde com carinho e dedicação. <br>
+                   Nossa equipe de profissionais está preparada para oferecer o melhor atendimento, com foco no bem-estar e na qualidade de vida de nossos pacientes.</p>
+                <a href="#about" class="btn-get-started">Saiba Mais</a>
+              </div>
+            </div><!-- End Carousel Item -->
+
+
         <div>
             Titulo - Interface Web
         </div>
@@ -90,5 +122,8 @@
             CPTM - 11 4619-1649
         </div>
     </footer>
+
+    <script src="JS/main.js"></script>
+
 </body>
 </html>

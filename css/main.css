@@ -1,5 +1,49 @@
-body 
-{
-    background: red; /* cor de fundo */
+:root
+{   
+   --background-color: rgb(193, 193, 194);
+   --nav-fundo: rgb(110, 50, 179);
+   --texto-default:#444;
+   --titulo-color: #474747;
+   --nav-color: #474747;
+   --nav-hover-color: #ffffff;
+   --nav-mobile-background: #9e9e9e;
+   --nav-dropdown-background: #666666;  
+   --nav-dropdown-color: #ffffff;  
+   --nav-dropdown-hover-color: red;
+   --nav-bg-topbar: rgb(62, 230, 28);
+   --nav-color: #ebebeb;
 
 }
+ 
+body
+{
+    background: var(--background-color);  /* cor de fundo */
+    color: var(--texto-default);    /* cor de textos */  
+}
+
+a
+{
+    text-decoration: none;   /* modifica os "links" */
+    transition: 0.3s;
+}
+
+/* HEADER */
+
+.header
+{
+    color: var(--texto-default);
+    background: var(--background-color); 
+    box-shadow: ;   /* voltar aqui */
+}
+
+.header .topbar
+{
+    background: var(--nav-bg-topbar);
+    color: var(--nav-color);
+    height: 40px;   /* altura */
+}
+
+/* nav
+{
+    background: var(--nav-fundo); 
+} */

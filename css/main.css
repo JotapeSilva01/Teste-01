@@ -181,6 +181,30 @@ a
     
 }
 
+.hero .carousel-item 
+{
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero .container 
+{
+    background: #444;
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 4px solid red;
+    z-index: 3;
+    margin-bottom: 50px;
+}
+
 @media (max-height:500px),
 (max-width:500px) 
 {
@@ -189,6 +213,7 @@ a
         min-width: 100vh;
     }
 }
+
 
 
 

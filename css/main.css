@@ -13,6 +13,7 @@
     --nav-bg-topbar: #3fbbc0;
     --nav-color2: #ebebeb;
     --surface: #fff;
+    --accent-color:  #3fbbc0;
   }
   
   body {
@@ -462,6 +463,11 @@ section,
   position: relative;
 }
 
+.accent-background{
+  background: #2dc8ce;
+  color: #f3f3f3;
+}
+
 .section-title h2{
   font-size: 32px;
   font-weight: 700;
@@ -471,7 +477,7 @@ section,
 }
 
 .section-title h2:after{
-  content: "";
+content: "";
   position: absolute;
   display: block;
   width: 50px;
@@ -482,3 +488,49 @@ section,
   bottom: 0;
   margin: auto;
 }
+
+/* ------------------- about ------------------ */
+
+.about .content h3{
+  font-size: 1.75rem;
+  /* Multiplicar *16 ou dividir /16 */
+  font-weight: 700;
+  color: #000000;
+}
+
+.about .content ul{
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li{
+  padding: 10px 0 0;
+  display: flex;
+
+}
+
+.about .content ul i{
+  color: #2dc8ce;
+  margin-right: 0.5rem;
+  line-height: 1.2;
+  font-size: 1.25rem;
+}
+
+.about .pulsanting-play-btn{
+  position: absolute;
+  left: calc(50% - 47px);
+  top: calc(50% - 4px);
+}
+
+/* -------------------- Pulsating Play Button ---------------------------- */
+.pulsanting-play-btn{
+  width: 94px;
+  height: 94px;
+  background: radial-gradient(var(--accent-color) 50%, color-mix(in srgb, var(--accent-color), transparent 75%)52%);
+  border-radius: 50%;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+

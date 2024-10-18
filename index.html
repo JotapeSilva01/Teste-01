@@ -653,7 +653,82 @@
 
           <form action="" method="post" class="email-form">
 
+            <!-- começo row 1 -->
+            <div class="row">
 
+              <!-- NOME -->
+              <div class="col-md-4 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome *" required>
+              </div>
+
+              <!-- EMAIL -->
+               <div class="col-md-4 form-group mt-3 mt-md-0">
+
+                <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email *" required>
+
+               </div>
+
+               <!-- Telefone -->
+               <div class="col-md-4 form-group mt-3 mt-md-0">
+
+                <input type="tel" class="form-control" name="phone" id="phone" placeholder="Seu Telefone *" required>
+
+               </div>
+
+            </div> <!-- fim row Forms 1 -->
+
+            <!-- começo row 2 -->
+            <div class="row">
+
+              <!-- data e hora -->
+              <div class="col-md-4 form-group mt-3">
+
+                <input type="datetime-local" class="form-control" name="date" id="date" placeholder="Data e Hora da Consulta" required>
+
+               </div>
+
+              <!-- Especialistas / Area -->
+              <div class="col-md-4 form-group mt-3">
+
+                <select  name="department" id="department" class="form-select" required>
+
+                  <option value="">Selecione o Especialista</option>
+                  <option value="Especialista 1">Cardiologia</option>
+                  <option value="Especialista 2">Pediatra</option>
+                  <option value="Especialista 3">Neurologia</option>
+                </select>
+
+               </div>
+
+              <!-- Doutores -->
+              <div class="col-md-4 form-group mt-3">
+
+                <select  name="doctor" id="doctor" class="form-select" required>
+
+                  <option value="">Selecione o(a) Médico</option>
+                  <option value="Doctor 1">Dr. Silva</option>
+                  <option value="Doctor 2">Dra. Oliveira</option>
+                  <option value="Doctor 3">Dr. Costa</option>
+                </select>
+
+               </div>
+
+            </div> <!-- Fim row 2 -->
+
+            <!-- Campo Mensagem -->
+             <div class="form-group mt-3">
+
+              <textarea  class="form-control" name="message" rows="5" placeholder="Mensagem (Opcional)">
+
+              </textarea>
+            </div>
+
+            <!-- Botão de Agendar -->
+            <div class="mt-3">
+              <div class="text-center">
+                <button type="submit"> Agendar Consulta </button>
+              </div>
+            </div> <!-- fim do mt-3 -->
 
           </form>
 
@@ -678,6 +753,69 @@
 
     <!-- Faq Section -->
     <section id="faq" class="faq section light-background">
+
+      <!-- Titulo FAQ -->
+       <div class="container section-title" data-aos="fade-up">
+        <h2> Perguntas Frequentes </h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, esse nesciunt enim commodi iure vitae pariatur, error repellat autem voluptatibus minus quos placeat dolor quae numquam exercitationem similique quidem cum.
+        </p>
+       </div>
+
+       <div class="container">
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="100">
+            <div class="faq-container">
+
+              <!-- pergunta 1 -->
+               <div class="faq-item">
+               <h3>Pergunta 1?</h3>
+               <div class="faq-content">
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae laboriosam, id consectetur culpa, doloremque aut quasi eum est, tempora nostrum deleniti quas quos sapiente reiciendis omnis quidem unde eius ad.</p>
+
+              </div> <!-- fim resposta -->
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div>
+              <!-- Fim Pergunta 1 -->
+
+              <!-- pergunta 2 -->
+               <div class="faq-item">
+               <h3>Pergunta 2?</h3>
+               <div class="faq-content">
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi fuga perferendis, nisi laboriosam autem accusamus dolorem accusantium iste eius dolores excepturi, nulla unde, commodi soluta exercitationem similique! Cumque, similique neque.</p>
+
+              </div> <!-- fim resposta -->
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div>
+              <!-- Fim Pergunta 2 -->
+              <!-- pergunta 3 -->
+               <div class="faq-item">
+               <h3>Pergunta 3?</h3>
+               <div class="faq-content">
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe commodi voluptatum alias beatae voluptas illo suscipit quisquam veniam quidem placeat cupiditate explicabo itaque expedita cumque dolores nesciunt, obcaecati sapiente ut.</p>
+
+              </div> <!-- fim resposta -->
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div>
+              <!-- Fim Pergunta 3 -->
+              <!-- pergunta 4 -->
+               <div class="faq-item">
+               <h3>Pergunta 4?</h3>
+               <div class="faq-content">
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptatibus quod ea veniam et sequi vero omnis quis ab deserunt nisi id iste accusantium quibusdam perspiciatis quae, molestiae doloribus iure.</p>
+
+              </div> <!-- fim resposta -->
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div>
+              <!-- Fim Pergunta 4 -->
+            </div> <!-- fim faq-container -->
+          </div>
+        </div> <!-- Fim do row -->
+       </div>
 
     </section> <!-- Fim FAQ -->
 

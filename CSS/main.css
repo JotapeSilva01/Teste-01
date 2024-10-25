@@ -66,7 +66,7 @@ a {
 
 .header .cta-btn,
 .header .cta-btn:focus {
-  color: #363636;
+  color: #ffffff;
   background: #3fbbc0;
   font-size: 14px;
   padding: 8px 20px;
@@ -959,6 +959,24 @@ section,
   bottom: 15px;
 }
 
+.medicos .team-member .social i {
+  font-size: 20px;
+  line-height: 0;
+}
+
+.medicos .team-member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  /* color: ; OPCIONAL */
+}
+
+.medicos .team-member .member-info span {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  /* color: ;OPCIONAL */
+}
 /* FAQ */
 
 .faq .faq-container .faq-item{
@@ -1027,4 +1045,37 @@ padding-top: 10px;
 .faq .faq-container .faq-active .faq-toggle{
   transform: rotate(90deg);
   color: #00b0c4;
+}
+
+/* contato */
+.contato .info-item {
+  background: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  padding: 24px 0 30px 0;
+}
+
+.contato .info-item i {
+  color: #0d880d; ;
+  width: 56px;
+  height: 56px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+  border: 2px dotted #0d8084;
+}
+
+.contato .info-item h3{
+  font-size: 20px;
+  color: #383838;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.contato .info-item p{
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 14px;
 }
